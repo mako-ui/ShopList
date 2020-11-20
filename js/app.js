@@ -13,7 +13,7 @@ addButton.addEventListener('click', (event)=> {
 
     let listItem = document.createElement("li");
     listItem.classList.add("collection-item");
-    let text = `Product: ${productName}. Price: ${productPrice}€`;
+    let text = `Product: ${productName}. Price: ${productPrice} €`;
     listItem.appendChild(document.createTextNode(text));
     console.log(listItem);
     list.appendChild(listItem);
